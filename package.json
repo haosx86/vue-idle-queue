@@ -1,0 +1,28 @@
+{
+  "name": "vue-idle-queue",
+  "version": "1.0.0",
+  "description": "A Vue.js plugin for executing queues of callbacks in browsers' idle time",
+  "author": "Vladimir Terekhov <haosx86@gmail.com>",
+  "private": false,
+  "main": "dist/vue-idle-queue.js",
+  "license": "MIT",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/haosx86/vue-idle-queue.git"
+  },
+  "bugs": {
+    "url": "https://github.com/haosx86/vue-idle-queue/issues"
+  },
+  "homepage": "https://github.com/haosx86/vue-idle-queue#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-vue": "^2.0.2",
+    "vue": "^2.5.17"
+  }
+}
