@@ -14,7 +14,7 @@ Vue.use(VueIdleQueue)
 
 Using promise interface:
 ```javascript
-this.$idleQueue([
+this.$onIdleQueue([
     () => {
         console.log('Im the first in queue')
         return 'result of the first callback'
@@ -28,7 +28,7 @@ this.$idleQueue([
 
 Using async\await for fetching results:
 ```javascript
-const [ result1, result2 ] = await this.$idleQueue([
+const [ result1, result2 ] = await this.$onIdleQueue([
     () => {
         console.log('Im the first in queue')
         return 'result of the first callback'
