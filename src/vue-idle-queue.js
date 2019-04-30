@@ -9,7 +9,7 @@ const IdlePromise = {
           })
         }, 1)
       })
-  
+    
       window.cancelIdleCallback = window.cancelIdleCallback || ((id) => {
         clearTimeout(id)
       })
