@@ -1,4 +1,5 @@
 # Vue-Idle-Queue
+[![Build Status](https://travis-ci.com/haosx86/vue-idle-queue.svg?branch=master)](https://travis-ci.com/haosx86/vue-idle-queue)
 
 Vue module that runs multiple callbacks in each requestIdleCallback until before it reaches the deadline time. It helps to execute lots of lightweight callbacks faster. This module uses promises interface to return callbacks results.
 
